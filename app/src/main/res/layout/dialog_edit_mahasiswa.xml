@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:fontFamily="@font/crim"
+        android:hint="Nama" />
+
+    <EditText
+        android:id="@+id/editNim"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:fontFamily="@font/crim"
+        android:layout_height="wrap_content"
+        android:hint="NIM" />
+
+    <EditText
+        android:id="@+id/editProdi"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/crim"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:hint="Prodi" />
+
+    <EditText
+        android:id="@+id/editAngkatan"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:fontFamily="@font/crim"
+        android:layout_height="wrap_content"
+        android:hint="Angkatan" />
+
+    <EditText
+        android:id="@+id/editIpk"
+        android:fontFamily="@font/crim"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IPK" />
+
+    <EditText
+        android:id="@+id/editSks"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/crim"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="SKS" />
+
+    <EditText
+        android:id="@+id/editYudisium"
+        android:fontFamily="@font/crim"
+        android:layout_width="match_parent"
+        android:inputType="date"
+        android:layout_height="wrap_content"
+        android:hint="Yudisium" />
+    <Button
+        android:id="@+id/buttonSave"
+        android:fontFamily="@font/crim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan" />
+</LinearLayout>

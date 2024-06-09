@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UpdateDataKaprodi">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/biru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/sps" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/npmupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="31dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/crimbold"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="NPM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <EditText
+        android:id="@+id/inpnpmupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/tambahdata"
+        android:fontFamily="@font/crim"
+        android:hint="Masukkan NPM"
+        android:paddingStart="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#6D6D6D"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/npmupdate" />
+    <TextView
+        android:id="@+id/namakapupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/crimbold"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="Nama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inpnpmupdate" />
+    <EditText
+        android:id="@+id/inpnamakapupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/namakapupdate"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/tambahdata"
+        android:layout_marginStart="32dp"
+        android:hint="Masukkan nama"
+        android:textSize="14dp"
+        android:fontFamily="@font/crim"
+        android:paddingStart="8dp"
+        android:textColorHint="#6D6D6D"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/prodikapupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/crimbold"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="Prodi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inpnamakapupdate" />
+    <EditText
+        android:id="@+id/inpprodikapupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/prodikapupdate"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/tambahdata"
+        android:layout_marginStart="32dp"
+        android:hint="Masukkan Prodi"
+        android:textSize="14dp"
+        android:fontFamily="@font/crim"
+        android:paddingStart="8dp"
+        android:textColorHint="#6D6D6D"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/updatekap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/biru"
+        android:fontFamily="@font/crimbold"
+        android:text="Update Data"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inpprodikapupdate" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

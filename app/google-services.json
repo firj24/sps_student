@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "191421268508",
+    "project_id": "spsapp-f1bea",
+    "storage_bucket": "spsapp-f1bea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191421268508:android:5a0eac6e992d6d1bf015d9",
+        "android_client_info": {
+          "package_name": "com.android.spsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcK-bwbOYFK_dvMNtVPD7pCC3Z81qPH6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

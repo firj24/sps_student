@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpsApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".JurnalMhsKap"
+            android:exported="false" />
+        <activity
+            android:name=".EditMahasiswaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditMastudMhs"
+            android:exported="false" />
+        <activity
+            android:name=".MasaStudiMahasiswaAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".EditMasaStudiMahasiswa"
+            android:exported="false" />
+        <activity
+            android:name=".TambahAKunMhs"
+            android:exported="false" />
+        <activity
+            android:name=".AkunKaprodi"
+            android:exported="false" />
+        <activity
+            android:name=".AkunMahasiswa"
+            android:exported="false" />
+        <activity
+            android:name=".AkunPengguna"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDataKaprodi"
+            android:exported="false" />
+        <activity
+            android:name=".TambahDataKaprodi"
+            android:exported="false" />
+        <activity
+            android:name=".DataKaprodi"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDaftar"
+            android:exported="false" />
+        <activity
+            android:name=".DataMhsAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".HomeKaprodi"
+            android:exported="false" />
+        <activity
+            android:name=".UpJurnalMhs"
+            android:exported="false" />
+        <activity
+            android:name=".MasaStudiMahasiswa"
+            android:exported="false" />
+        <activity
+            android:name=".MhsHome"
+            android:exported="false" />
+        <activity
+            android:name=".MahasiswaAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LupaPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

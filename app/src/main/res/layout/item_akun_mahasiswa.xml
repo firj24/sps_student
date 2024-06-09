@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/namamhs"
+            android:textColor="@color/black"
+            android:fontFamily="@font/crimbold"
+            android:textSize="16dp"
+            android:background="@color/abu"
+            android:padding="10dp"
+            android:gravity="center|start"
+            android:layout_width="100dp"
+            android:layout_column="1"
+            />
+        <TextView
+            android:id="@+id/usermhs"
+            android:textColor="@color/black"
+            android:background="@color/abu"
+            android:padding="10dp"
+            android:gravity="center|start"
+            android:layout_width="100dp"
+            android:fontFamily="@font/crimbold"
+            android:textSize="16dp"
+            android:layout_column="1"
+            />
+        <TextView
+            android:id="@+id/passmhs"
+            android:textColor="@color/black"
+            android:background="@color/abu"
+            android:padding="10dp"
+            android:gravity="center|start"            android:fontFamily="@font/crimbold"
+            android:textSize="16dp"
+            android:layout_column="1"
+            />
+        <ImageView
+            android:id="@+id/hapusakunmhs"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_delete_outline_24"
+            android:clickable="true"
+            android:focusable="true"
+            />
+    </TableRow>
+</TableLayout>

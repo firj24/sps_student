@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    tools:context=".AkunMahasiswa">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="413dp"
+        android:layout_height="83dp"
+        android:background="@color/biru"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/sps" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="75dp"
+        android:text="Akun Mahasiswa"
+        android:textColor="@color/black"
+        android:fontFamily="@font/crimbold"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:srcCompat="@drawable/adminis" />
+
+    <Button
+        android:id="@+id/tambahmhs"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/biru"
+        android:text="Tambah Akun"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TableLayout
+        android:layout_width="387dp"
+        android:layout_height="220dp"
+        android:layout_margin="20dp"
+        android:stretchColumns="1,2,3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tambahmhs">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_column="1"
+                android:fontFamily="@font/crimbold"
+                android:padding="5dp"
+                android:text="Nama"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_column="1"
+                android:fontFamily="@font/crimbold"
+                android:padding="5dp"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_column="1"
+
+                android:fontFamily="@font/crimbold"
+                android:padding="5dp"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        </TableRow>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerakunmhs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</HorizontalScrollView>

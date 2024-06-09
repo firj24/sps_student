@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Mahasiswa" />
+
+    <EditText
+        android:id="@+id/editNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM Mahasiswa" />
+
+    <EditText
+        android:id="@+id/editProdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Program Studi" />
+
+    <EditText
+        android:id="@+id/editAngkatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Angkatan" />
+
+    <EditText
+        android:id="@+id/editIpk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IPK" />
+
+    <EditText
+        android:id="@+id/editSks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SKS" />
+
+    <EditText
+        android:id="@+id/editYudisium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yudisium" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+</LinearLayout>
